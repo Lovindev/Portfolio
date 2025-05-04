@@ -1,0 +1,362 @@
+* {
+    transition-duration: 2.5s;
+    transition-timing-function: cubic-bezier(0.32, 1.84, 1, -0.54);
+    transition-delay: 0.5s;
+    transition-property: box-shadow;
+    background-color: #000;
+    margin: 0;
+    
+    padding: 0;
+    color: #fff;
+}
+
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.highlighted_note {
+    padding-left: 3px;
+    box-shadow: inset rgb(255, 174, 0) 20px 0px 20px 2px;
+}
+
+.display {
+    display: none;
+
+}
+
+button {
+    color: #fff;
+    border: 3px solid rgb(255, 0, 0);
+    padding: 7px;
+    border-radius: 10%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.1vw;
+    width: inherit;
+    height: inherit;
+    font-weight: bold;
+    color: rgb(89, 0, 255);
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    gap: 15px;
+    font-size: 20px;
+    box-shadow: inset rgb(89, 0, 255) -20px -9px 20px 0px;
+    list-style-type: none;
+    padding: 9px 0px 4px 8px;
+    border-bottom: 2px solid #fff;
+
+}
+
+.main_body {
+    padding-top: 10vw;
+    display: grid;
+    gap: 100px;
+}
+
+.nav_items {
+    box-shadow: inset rgb(89, 0, 255) 0px -5px 14px 0px;
+    cursor: context-menu;
+}
+
+.introduction {
+    font-size: 55px;
+}
+
+.introduction_note3 {
+    box-shadow: inset rgb(89, 0, 255) 20px 0px 12px 5px;
+}
+
+.Home_section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 40vw 40vw;
+    padding-left: 25px;
+
+}
+
+.profile_picture {
+
+    border: 5px solid rgb(255, 174, 0);
+    width: 35vw;
+    border-radius: 60% 0% 20% 40%;
+}
+
+.About_section {
+    padding-left: 25px;
+
+}
+
+.about_seperation {
+
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment {
+    box-shadow: inset rgb(255, 0, 0) 20px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    font-size: 7.6vw;
+    font-weight: bold;
+    border: 5px solid rgba(255, 0, 0, 0.651);
+    width: 36.3vw;
+    height: 55vw;
+    border-radius: 0% 60% 40% 20%;
+}
+
+.more_about_me {
+    overflow: scroll;
+    gap: 10px;
+
+}
+
+.head_of_section {
+    font-size: 30px;
+    border-left: 9px solid rgb(0, 255, 0);
+    margin: 3px;
+    margin-bottom: 5px;
+}
+
+.skills_section {
+    padding: 25px;
+}
+
+.section_seperation {
+    display: grid;
+    justify-content: center;
+
+}
+
+.section_info {
+    height: inherit;
+    width: inherit;
+    border-radius: 15px;
+    display: grid;
+    justify-content: center;
+
+}
+
+.inner_seperation {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 50% 50%;
+    
+
+}
+
+h3 {
+    font-size: 40px;
+    color: rgb(251 255 0);
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.img_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: inherit;
+    height: inherit;
+    font-size: 3vw;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.img_info div{
+    background-color: inherit;
+}
+
+.imgs{
+    display: flex;
+}
+
+.outset_shadow{
+    box-shadow:rgb(0, 217, 255) 6px 20px 20px 0px;
+    height: 23vw;
+    border-radius: 15px;
+    width: 35vw;
+    
+}
+
+#gold_Card {
+    background-color: rgb(184, 150, 0);
+    box-shadow: inset yellow 20px 0px 20px 20px;
+}
+
+#bronse_card_js {
+    background-color: rgb(140, 0, 0);
+    box-shadow: inset rgb(179, 64, 12) 20px 0px 20px 20px;
+}
+
+#silver_card{
+    background-color: rgb(133, 133, 133);
+    box-shadow: inset rgb(255, 255, 255) 20px 0px 20px 20px;
+
+}
+
+.section_info img{
+    width: 40%;
+}
+
+
+#card_js {
+    width: 33%;
+}
+
+.Work_section {
+    padding: 25px;
+}
+
+#work_card {
+    background-color: rgb(59, 0, 95);
+    box-shadow: inset rgb(123, 12, 179) 20px 0px 20px 2px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 80% 10% 10%;
+}
+
+#work_card img{
+    width: 80%;
+}
+
+
+#work_card div{
+    background-color: rgb(59, 0, 95);
+    color: rgb(0, 217, 255);
+    font-size: 2vw;
+
+}
+
+.contact_section {
+    padding: 25px;
+}
+
+.contact_deatails {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-top: 2px solid #fff;
+    gap: 10px;
+}
+
+.contact_seperation div {
+    font-size: 25px;
+    color: rgb(77, 77, 77);
+    margin: 5px 0px 5px 0px;
+    text-decoration: underline #fff;
+
+}
+
+.contact_seperation a {
+    font-size: 25px;
+    color: rgb(77, 77, 77);
+    text-decoration: underline #fff;
+
+}
+
+.contact_seperation{
+    display: grid;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+@media (min-width: 1270px) {
+    .introduction_note2{
+        display: flex;
+    }
+ 
+}
+
+@media (max-width: 1270px) {
+    a{
+        font-size: 2.1vw;
+    }
+ 
+}
+
+
+
+
+@media (max-width: 710px) {
+    
+    .Home_section {
+        display: grid;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 25px;
+        grid-template-columns: none;
+    }
+    
+    .about_seperation{
+        display: grid;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 25px;
+        grid-template-columns: none;
+    }
+
+    .inner_seperation{
+        grid-template-columns: none;
+    }
+
+    .outset_shadow{
+        width: 65vw;
+        height: 42vw;
+    }
+
+    .profile_picture{
+        width: 75vw;
+    }
+
+    .comment{
+        width: 75vw;
+    }
+
+    a{
+        font-size: 4.1vw;
+    }
+
+    
+
+     
+}
+
+@media (max-width: 660px) {
+    
+    .contact_deatails{
+        grid-template-columns: none;
+    }
+    
+}
+
+@media (max-width: 550px) {
+    
+    a{
+        font-size: 5.1vw;
+    }
+    
+}
+
+
